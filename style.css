@@ -1,0 +1,77 @@
+body {
+    background-color: #f4f4f9;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+     background-image: url('file:///C:/Users/bapti/Desktop/lamson_html/images/3d-rendering-abstract-black-white-geometric-background.jpg')
+     
+
+
+     }
+.premierbloc {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.carte {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #2c3e50;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.photodeprofil {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #3498db;
+}
+
+.liens {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.liens:hover {
+    background-color: #2980b9;
+}
+
+.lienss {
+    list-style: none;
+    padding-left: 0;
+}
+
+.lienss > li {
+    display: inline;
+    padding: 0 10px;
+}
